@@ -1,4 +1,4 @@
-# pfSense DoS Defense Lab 
+# pfSense DoS Defense HomeLab 
 
 ## Project Overview
 This homelab project demonstrates the setup of a pfSense firewall to defend against a simulated Denial of Service (DoS) attack. The lab features an isolated network where an external attacker (Kali Linux) targets an internal victim (Ubuntu Desktop). 
