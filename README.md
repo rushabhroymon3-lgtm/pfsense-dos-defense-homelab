@@ -1,7 +1,23 @@
 # pfSense DoS Defense HomeLab 
 
 ## Project Overview
-This homelab project demonstrates the setup of a pfSense firewall to defend against a simulated Denial of Service (DoS) attack. The lab features an isolated network where an external attacker (Kali Linux) targets an internal victim (Ubuntu Desktop). 
+This homelab project demonstrates the setup of a pfSense firewall to defend against a simulated Denial of Service (DoS) attack. The lab features an isolated network where an external attacker (Kali Linux) targets an internal victim (Ubuntu VM). 
+
+## 📁 Repository Structure
+
+```
+pfsense-dos-defense-lab/
+├── README.md                  ← Project overview
+├── TECHNICAL_GUIDE.md         ← Step-by-step setup instructions
+├── docs/
+│   ├── firewall-rules.md      ← Rule configurations
+│   └── attack-analysis.md     ← DoS breakdown & findings
+├── screenshots/               ← All 24 screenshots
+├── configs/
+│   └── pfsense-backup.xml     ← Exported pfSense firewall config
+└── reports/
+    └── portfolio.pdf          ← Full project report
+```
 
 ## Key Results
 * **Attack Packets Generated:** 1,774,472
