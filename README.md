@@ -19,12 +19,6 @@ pfsense-dos-defense-lab/
     └── portfolio.pdf          ← Full project report
 ```
 
-## Key Results
-* **Attack Packets Generated:** 1,774,472
-* **Wireshark Capture:** 377,654+ packets
-* **Attack Packet Rate:** 177,000 pps
-* **Firewall Blocking Rate:** 100%
-
 ## Project Objectives
 * Stand up a pfSense firewall in VirtualBox with separate WAN (bridged) and LAN (internal) segments.
 * Put Kali Linux on the WAN side to simulate an external attacker.
@@ -39,6 +33,12 @@ pfsense-dos-defense-lab/
 | pfSense LAN | 192.168.1.1/24 (Static) | Internal Network (intnet) |
 | Kali Linux (Attacker) | 192.168.29.7 | Bridged Adapter |
 | Ubuntu (Victim) | 192.168.1.100/24 (DHCP) | Internal Network (intnet)|
+
+## Key Results
+* **Attack Packets Generated:** 1,774,472
+* **Wireshark Capture:** 377,654+ packets
+* **Attack Packet Rate:** 177,000 pps
+* **Firewall Blocking Rate:** 100%
 
 ## Skills Demonstrated
 * **Firewall Admin:** pfSense rule creation, rule precedence, stateful filtering, logging, DHCP
